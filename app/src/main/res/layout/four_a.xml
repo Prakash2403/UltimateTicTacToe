@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.Guideline
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline2"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteY="603dp"
+        tools:layout_editor_absoluteX="0dp"
+        app:layout_constraintGuide_percent="1.0" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/baloon"
+        android:id="@+id/imageView6"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:adjustViewBounds="false"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:scaleType="centerCrop"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText2"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:hint="Enter your name"
+        app:layout_constraintTop_toTopOf="@+id/imageView6"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView6" />
+
+    <Button
+        android:text="Done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:background="@drawable/rounded_button"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText2"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        android:textSize="15dp"
+        android:textColor="#FFFFFF"
+        app:layout_constraintLeft_toLeftOf="@+id/imageView6" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:text="  &quot;The difference between genius and\n stupidity is that genius has limits.&quot;\n             -Albert Einstein"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="@+id/imageView6"
+        app:layout_constraintTop_toTopOf="@+id/imageView6"
+        app:layout_constraintBottom_toTopOf="@+id/editText2"
+        android:textStyle="bold"
+        android:textSize="19sp"
+
+        app:layout_constraintVertical_bias="0.36" />
+
+</android.support.constraint.ConstraintLayout>

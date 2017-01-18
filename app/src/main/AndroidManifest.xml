@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.prakash.ultimatetictactoe">
+
+    <application
+        android:enabled="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".frontend.First"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".frontend.FourA"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".frontend.Fifth"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".frontend.Third"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".frontend.Second"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".frontend.Options"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".frontend.FourB"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".frontend.AboutUs"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".frontend.Popup"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>
