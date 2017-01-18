@@ -64,6 +64,7 @@ public class Fifth extends AppCompatActivity implements View.OnClickListener
         }
     }
 
+
     TextView scoreP1;
     TextView scoreP2;
     ImageButton breset;
