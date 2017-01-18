@@ -19,12 +19,12 @@ import com.example.prakash.ultimatetictactoe.R;
 
 public class Second extends AppCompatActivity implements  View.OnClickListener{
 
-    Button start;
-    Button options;
-    Button aboutus;
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
+        Button start;
+        Button options;
+        Button aboutus;
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,

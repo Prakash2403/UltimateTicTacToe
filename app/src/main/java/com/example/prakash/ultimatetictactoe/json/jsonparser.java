@@ -32,22 +32,8 @@ public class jsonparser
         }
         catch(JSONException jsonException)
         {
-            System.out.println(jsonException);
+            System.err.println(jsonException);
         }
         return map;
     }
 }
-/*
-jsonObject.put("CurrentCell", currentCell);
-            jsonObject.put("CurrentActiveBlock", currentActiveBlock);
-            jsonObject.put("NextActiveBlock", nextActiveBlock);
-            jsonObject.put("CurrentWinner", winner);
-            jsonObject.put("GlobalWinner", global_winner);
-            jsonObject.put("Turn", getTurn());
-            jsonObject.put("DisableList", used_cells);
-            jsonObject.put("ResetList", reset_cells);
-            jsonObject.put("ScoreP1", score[0]);
-            jsonObject.put("ScoreP2", score[1]);
-            jsonObject.put("ButtonPressed", buttonPressed);
- */
-

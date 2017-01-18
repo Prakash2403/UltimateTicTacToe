@@ -13,7 +13,6 @@ import java.util.Map;
 import java.util.Stack;
 
 
-// TODO handle the case where nextActiveBlock is disabled.
 public class Backend
 {
     private boolean turn;       //true for player1. false for player2
