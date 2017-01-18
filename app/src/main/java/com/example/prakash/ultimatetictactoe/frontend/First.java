@@ -38,5 +38,4 @@ public class First extends Activity {
             }
         }, SPLASH_TIME_OUT);
     }
-
 }

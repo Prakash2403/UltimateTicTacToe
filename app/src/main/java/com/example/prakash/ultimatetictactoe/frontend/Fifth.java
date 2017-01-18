@@ -64,8 +64,6 @@ public class Fifth extends AppCompatActivity implements View.OnClickListener
         }
     }
 
-
-    Intent i;
     TextView scoreP1;
     TextView scoreP2;
     ImageButton breset;
@@ -77,7 +75,9 @@ public class Fifth extends AppCompatActivity implements View.OnClickListener
     String P2Name;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
+        Intent i;
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
@@ -86,12 +86,12 @@ public class Fifth extends AppCompatActivity implements View.OnClickListener
         i = getIntent();
         bind();
         initialize();
+        P1Name = i.getStringExtra("Player1Name");
+        P2Name = i.getStringExtra("Player2Name");
     }
 
     private void bind()
     {
-        P1Name = i.getStringExtra("Player1Name");
-        P2Name = i.getStringExtra("Player2Name");
         scoreP1 = (TextView)findViewById(R.id.textView3);
         scoreP2 = (TextView)findViewById(R.id.textView4);
         backend = new Backend();
