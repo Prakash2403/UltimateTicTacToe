@@ -17,7 +17,7 @@ Ultimate tic-tac-toe also known as super tic-tac-toe is a board game composed of
 
 ##Example
 
-On global board, 9 3*3 blocks are present.  Assume that they are numbered through 1 to 9 and each block contains three rows and three column. Now, suppose that Player 1 had made it's first move on 2nd block, 3rd row, 2nd column. Then, next move of player 2 must be on block located at 3rd row, 2nd column of global block (i.e. 8th block). Now, player 2 is free to move anywhere on 8th block. Suppose that he makes his move on 2nd row, 5th column of 8th block. Then Player 1 has to make his move on the block located at 2nd row, 5th column(fifth block) of global block. Next move of player 2 will be determined by move made by first player in fifth block and game continues like this.
+On global board, nine 3 X 3 blocks are present.  Assume that they are numbered through 1 to 9 and each block contains three rows and three column. Now, suppose that Player 1 had made it's first move on 2nd block, 3rd row, 2nd column. Then, next move of player 2 must be on block located at 3rd row, 2nd column of global block (i.e. 8th block). Now, player 2 is free to move anywhere on 8th block. Suppose that he makes his move on 2nd row, 5th column of 8th block. Then Player 1 has to make his move on the block located at 2nd row, 5th column(fifth block) of global block. Next move of player 2 will be determined by move made by first player in fifth block and game continues like this.
 
 ##Developed By
 1. Piyush Sikarwal.
