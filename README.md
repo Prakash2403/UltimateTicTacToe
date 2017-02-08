@@ -1,6 +1,6 @@
 # Ultimate TicTacToe
 
-This is my first android app.
+This is my first android app for AndroidMonk Hackathon and we won that hackathon.
 
 ##Basic Idea
 Ultimate tic-tac-toe also known as super tic-tac-toe is a board game composed of nine tic-tac-toe boards arranged in a 3-by-3 grid.  Players take turns playing in the smaller tic-tac-toe boards until one of them wins in the larger tic-tac-toe board.
